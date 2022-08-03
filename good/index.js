@@ -48,36 +48,43 @@ const Welcome = () => {
 
 const Intro = () => {
   return (
-    <div id="main" className="intro">
-      
-      <div className="intro-div">
-       
-        <Welcome/>
-  <h3 >JennyEmpire store currently has over  100 different containing diferrent styles and colour. We offer sell only quality wigs and offer fast delivery service. </h3>
-  <h1 class="moving">
-  <span class="choice">Your best choice for </span>
-  <br></br>
-  <div class="message">
-    <div class="word1">creativity</div>
+
+
+<div class="container">
+   <div class="row">
+     <div class="col-md-12 col-xs-12">
+     <Welcome/>
+</div>
+<div class="col-md-12 col-xs-12">
+<h3 >JennyEmpire store currently has over  100 different containing diferrent styles and colour. We offer sell only quality wigs and offer fast delivery service. </h3>
+</div>
+<div class="col-md-12 col-xs-6">
+    <div class="col3">
+    <h1 class="moving">
+   <span class="choice">Your best choice for </span>
+   <div class="message">
+     <div class="word1">creativity</div>
     <div class="word2">Durabitlity</div>
     <div class="word3">low cost</div>
-    <div class="word4">low maintaince</div>
+   <div class="word4">low maintaince</div>
   </div>
-</h1>
-  {/*  class */}
-  <a href="#mainicon"><button className="btn btn-pink">Browse <i class="fa fa-search"></i></button></a>
-      </div>
-      <div className="intro-cont">
-      <ul className="object visible-lg visible-md visible-md visible-sm">
-        <h2><i class="fa fa-facebook"></i></h2>
-        <h2><i class="fa fa-twitter"></i></h2>
-        <h2><i class="fa fa-instagram"></i></h2>
-        <h2><i class="fa fa-envelope"></i></h2>
-        <h2><i class="fa fa-phone"></i></h2>
+ </h1>
+    </div>
+</div>
+</div>
+<div>
+<div className="intro-cont icons">
+       <ul className="object visible-lg visible-md visible-md visible-sm">
+         <h2><i class="fa fa-facebook"></i></h2>
+         <h2><i class="fa fa-twitter"></i></h2>
+      <h2><i class="fa fa-instagram"></i></h2>
+       <h2><i class="fa fa-envelope"></i></h2>
+       <h2><i class="fa fa-phone"></i></h2>
       </ul>
       </div>
-    </div>
-
+      <a href="#mainicon"><button className="btn btn-pink">Browse <i class="fa fa-search"></i></button></a>
+</div>
+</div>
   )
 }
 
@@ -258,9 +265,9 @@ const arr= data.map((list) => {
              <Navbar/>
              <Intro/>
           </div>
-          <About/>
+          {/* <About/> */}
           <div className="block">
-              {arr}
+              {/* {arr} */}
           </div>
           <Footer/>
         </div>
