@@ -1,0 +1,3 @@
+[submodule "jennystore"]
+	path = jennystore
+	url = git@github.com:joelyoung2020/Website-for-Jenny-store.git
