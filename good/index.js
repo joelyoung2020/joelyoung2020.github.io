@@ -2,23 +2,22 @@
 
 const Navbar = () => {
   return (
-    <nav className="navbar ">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button data-toggle="collapse" data-target="#demo" class="navbar-toggle" ><span class="glyphicon glyphicon-list"></span></button>
-                
-                <a className="navbar-brand" href="#"><img src="hari logo.jpg" className="logo"/></a><span className="navbar-brand letter">JennyEmpire</span>
-            </div>
-            <div id="demo" class="collapse-in navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#main">Home</a></li>
-                <li><a href="#abouticon">About</a></li>
-                <li><a href="#mainicon">Store</a></li>
-                <li><a href="#contacticon">Contact us</a></li>
-            </ul>
+   
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button data-toggle="collapse" data-target="#demo" class="navbar-toggle" ><span class="glyphicon glyphicon-list"></span></button>
+            <a className="navbar-brand" href="#"><img src="hari logo.jpg" className="logo"/></a><span className="navbar-brand letter">JennyEmpire</span>
         </div>
-        </div>
-    </nav>
+        <div id="demo" class="collapse-in navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
   )
 }
 
@@ -51,7 +50,7 @@ const Intro = () => {
 
 
 <div class="container">
-   <div class="row">
+   {/* <div class="row">
      <div class="col-md-12 col-xs-12">
      <Welcome/>
 </div>
@@ -61,7 +60,7 @@ const Intro = () => {
 <div class="col-md-12 col-xs-6">
     <div class="col3">
     <h1 class="moving">
-   <span class="choice">Your best choice for </span>
+   <span class="choice">b</span>
    <div class="message">
      <div class="word1">creativity</div>
     <div class="word2">Durabitlity</div>
@@ -83,6 +82,22 @@ const Intro = () => {
       </ul>
       </div>
       <a href="#mainicon"><button className="btn btn-pink">Browse <i class="fa fa-search"></i></button></a>
+</div> */}
+ <div class="row">
+     <div class="col-md-6 col-xs-12">
+     <Welcome/>
+
+<h3 >JennyEmpire store currently has over  100 different containing diferrent styles and colour. We offer sell only quality wigs and offer fast delivery service. </h3>
+{/* <h1 class="moving">
+   <span class="choice">b</span>
+   <div class="message">
+     <div class="word1">creativity</div>
+    <div class="word2">Durabitlity</div>
+    <div class="word3">low cost</div>
+   <div class="word4">low maintaince</div>
+  </div>
+ </h1> */}
+</div>
 </div>
 </div>
   )
@@ -261,11 +276,12 @@ const arr= data.map((list) => {
 })
     return(
         <div className="page">
+          
           <div className="top">
-             <Navbar/>
+          <Navbar/>
              <Intro/>
           </div>
-          {/* <About/> */}
+          <About/>
           <div className="block">
               {/* {arr} */}
           </div>

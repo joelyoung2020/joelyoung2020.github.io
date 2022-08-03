@@ -2,127 +2,145 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* background-image: url(5e819dd760bb1a623bbc6dae.png); */
-     background-size: cover;
-    background-repeat: no-repeat;
-
- 
-   
 }
+/* INTRO PAGE */
 .logo{
     margin-top: -10px;
-    /* margin-right: -20px; */
     width: 50px;
     height: 50px;
 }
-.intro{
-    /* background-color: white; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap; */
-     margin-left: 20px;
-    /* align-items: center; */
-    max-width: 500px;
-    
+.glyphicon-list{
+  font-size: 25px;
 }
-.intro-all{
-    /* border-bottom: #333;
-    box-shadow: 2px 2px 2px 2px#333; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.image{
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-    /* background-color: red; */
-    /* height: 100vh; */
+img{
+  z-index: 0;
+  position: relative;
+  width: 800px;
+  height: 100px;
 }
 .img-btn{
-    z-index: 1;
-    cursor: pointer;
-    position: relative;
-    top: 100px;
-    left:100px;
-    font-size: 20px;
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  top: 50px;
+  left:80px;
+  font-size: 20px;
+}
+.intro{
+  max-width: 400px;
+}
+.object{
+  margin-top: -10px;
+  height: 30px;
+  /* background-color: blue; */
+  color: rgb(78, 78, 209);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
 
-  
-    
+/* ABOUT ME */
+.my-image > h1{
+  text-align: center;
+  color: rgb(78, 78, 209);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.my-image{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-image > img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px#333;
+}
+
 .img-btn .btn-secondary{
     position: relative;
     top: 10px;
     left:80px;
 }
-img{
-    z-index: 0;
-    position: relative;
-    width: 400px;
-    height: 400px;
-}
-.image{
+.about > h1{
     
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.my-image > h1{
     text-align: center;
-    color: rgb(78, 78, 209);
-    font-size: 40px;
-    font-weight: bold;
 }
-
-.my-image{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.about-me{
+    
+     display: flex; 
+     flex-wrap: wrap;
+     justify-content: center;
 }
-.my-image > img{
-    width: 200px;
-    height: 200px;
+h2{
+    text-align: center;
+}
+.my-story{
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 5px#333;
+    box-shadow: 2px 2px 2px 2px#333;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    /* border: 2px solid black; */
+    max-width: 500px;
 }
-.object{
-    margin-top: -10px;
-    height: 30px;
-    /* background-color: blue; */
-    color: rgb(78, 78, 209);
+.h4{
+    font-size: 20px;
+    padding:10px 15px;
+    
+}
+.my-skills > button{
+    cursor: pointer;
+    margin-bottom: -80px;
+    font-size: 20px;
+}
+.btn.start{
+    border-top-left-radius: 20px;
+}
 
+.my-skills > h4{
+    box-shadow: 2px 2px 2px 2px#333;
+    padding-top: 80px;
+    max-width: 500px;
+    border-radius: 20px;
+    padding:60px 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+/* FOOTER COMPONENT */
+.footer-list{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-body {
-  display: flex;
-  justify-content: center;
-}
-
-.main {
-  display: inline-flex;
-}
-
-.box {
-  margin-top: 100px;
-  font-size: 50px;
-  color: rgb(78, 78, 209);
-  font-weight: 900;
-}
-
-#box1::after {
-  content: "HELLO! I'm Joel";
-  display: flex;
-  transform: rotateX(180deg);
-  -webkit-background-clip: text;
-  color: #ddd;
-}
-.about > h1{
-    /* display: block; */
+.footer-title{
     text-align: center;
+    /* color:blue; */
+    font-weight: bold;
+    margin-top: 30px;
 }
 .back >a >h4{
   text-align: center;
@@ -150,89 +168,6 @@ body {
   height: 40px;
   
 }
-
-.about-me{
-    
-     display: flex; 
-     flex-wrap: wrap;
-     justify-content: center;
-     /* display: inline-block; */
-
-}
-h2{
-    text-align: center;
-}
-.my-story{
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px#333;
-    margin-top: 30px;
-    margin-bottom: 2px;
-    margin-right: 5px;
-    /* border: 2px solid black; */
-    max-width: 500px;
-}
-/* .my-skills{
-    border: 2px solid black;
-    max-width: 500px;
-} */
-.h4{
-    font-size: 20px;
-    padding:10px 15px;
-    
-}
-.my-skills > button{
-    cursor: pointer;
-    margin-bottom: -80px;
-    font-size: 20px;
-}
-/* .btn .blue{
-    margin-left: 20px;
-} */
-.btn.start{
-    border-top-left-radius: 20px;
-}
-
-.my-skills > h4{
-    box-shadow: 2px 2px 2px 2px#333;
-    padding-top: 80px;
-    max-width: 500px;
-    border-radius: 20px;
-    padding:60px 15px;
-    font-weight: bold;
-    font-size: 20px;
-}
-/* .footer{
-    background-color: rgb(230, 130, 130);
-    background-size: cover;
-    padding-bottom: 20px;
-    
-    position: relative;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-   
-    opacity: 1;
-    animation-name: example;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-@keyframes example {
-    from {background-color: yellowgreen}
-    to {background-color: rgb(230, 130, 130);}
-} */
-
-.footer-list{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.footer-title{
-    text-align: center;
-    /* color:blue; */
-    font-weight: bold;
-    margin-top: 30px;
-
-}
-
 input{
     display: flex;
     justify-content: center;
@@ -283,41 +218,8 @@ justify-content: space-between;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  /* aniamtions time */
+
 h1 {
     color: #333;
     font-family: tahoma;
@@ -328,25 +230,21 @@ h1 {
     white-space: nowrap;
     overflow: hidden;
     position: relative;
-    width: 550px;
+    width: 200px;
   }
-  
   h1 span {
-    
     font-size: 25px;
-    
   }
-  
   .message {
     background-color: rgb(78, 78, 209);
     color: #333;
-    display: block;
+    /* display: block; */
     font-weight: 200;
     overflow: hidden;
     position: absolute;
     padding-left: 0.5rem;
     top: 0.2rem;
-    left: 200px;
+    left: 0px;
     animation: openclose 5s ease-in-out infinite;
   }
   
@@ -418,3 +316,19 @@ h1 {
       text-indent: 0;
     }
   }
+
+  /* INTRO ANIMATION */
+.box {
+  margin-top: 30px;
+  font-size: 40px;
+  color: rgb(78, 78, 209);
+  font-weight: 900;
+}
+
+#box1::after {
+  content: "HELLO! I'm Joel";
+  display: flex;
+  transform: rotateX(180deg);
+  -webkit-background-clip: text;
+  color: #ddd;
+}

@@ -16,16 +16,17 @@ body{
 
 /* first page, navbar compoent & info components */
 .top{
-  width: 100%;
-    background-image: url(hair.jpg);
-    background-size: cover;
+  /* background-image: url(hair.jpg);
+    background-size: cover; */
 
 }
 .container{
-  /* display: flex;
-align-items: center; */
+  display: flex;
+align-items: center;
+
 background-color: blue;
-max-width: 800px;
+border: 5px solid black;
+/* max-width: 800px; */
   height: 100vh;
 }
 .btn-pink{
@@ -34,7 +35,7 @@ max-width: 800px;
   font-size: 20px;
   font-weight: bold;
   background-color: rgb(230, 130, 130);
-  width: 150px;
+  /* width: 150px; */
   border-radius:10px;
 }
 
@@ -123,9 +124,9 @@ display: block;
 } */
 
 
-.navbar{
+/* .navbar{
     margin: 0;
-}
+} */
 /* .intro-div{
   display: flex;
   flex-direction: column;
@@ -423,7 +424,7 @@ justify-content: space-between;
     position: absolute;
     padding-left: 0.5rem;
     top: 0.2rem;
-    left: 280px;
+    left: 5px;
     animation: openclose 5s ease-in-out infinite;
   }
   
@@ -440,11 +441,11 @@ justify-content: space-between;
       width: 0;
     }
     15% {
-      width: 230px;
+      width: 100px;
     }
     30% {
       top: 0.2rem;
-      width: 230px;
+      width: 210px;
     }
     33% {
       top: 0.2rem;

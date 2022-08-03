@@ -22,27 +22,25 @@ const Navbar = () => {
     )
   }
   
-//image div components
+//Intro div components
 AOS.init();
 
 const Intro = () => {
   return (
-    <div className="intro-all">
-        <div className="image">
-            <button data-aos="flip-right" className="img-btn  btn btn-primary">Check me out</button>
-           <img src="5e819dd760bb1a623bbc6dae.png"/>
+    <div class="container">
+    <div class=" maincol row">
+    <div class="col-md-6 col-xs-12">
+    
+       <div className="image img-responsive">
+       <button class="caption" data-aos="flip-right" className="img-btn  btn btn-primary">Check me out</button>
+           <img className="img-responsive" src="5e819dd760bb1a623bbc6dae.png"/>
         </div>
+        </div>
+        <div class="col-md-6 col-xs-12">
         <div className="intro">
-
-
-           {/* <h1>Hello!</h1> */}
            <div class="main">
               <div class="box" id="box1">HELLO! I'm Joel</div>
            </div>
-
-
-
-
            <h3>I'm Joel - a front web devloper with experinece in React and bootstrap. My expertise is bulidign responsive webiste with reusable component as well. I strive to make the web a  beautiful place</h3>
            <div className="intro-cont">
               <ul className="object">
@@ -54,7 +52,7 @@ const Intro = () => {
               </ul>
            </div>
            <h1 class="moving">
-   <span class="choice">My designs are</span>
+   <span class="choice">M</span>
   <br></br>
   <div class="message">
     <div class="word1">beautiful</div>
@@ -64,10 +62,69 @@ const Intro = () => {
   </div>
 </h1>
         </div>
-       
+        </div>
+        
+        </div>
     </div>
   )
 }
+
+//my image component
+
+
+const MyImage = () => {
+  return (
+    
+    <div data-aos="zoom-in" class="my-image">
+        <h1>About me</h1>
+        <img src="joel.jpg" />
+    </div>
+  )
+}
+
+
+//about component
+
+const About = () => {
+  const[skills, setSkills] = React.useState(false)
+  const[exp, setExp] = React.useState(true)
+  
+  function skill(){
+      setSkills(true)
+      setExp(false)
+    }
+    function experience() {
+      setSkills(false)
+      setExp(true)
+  
+    }
+  
+    return (
+    //   <div class="container">
+    // <div class=" maincol row">
+    // <div class="col-md-12 col-xs-12">
+      <div className="about" >
+          <div className="about-me">
+          <div data-aos="fade-up" className="my-story">
+              <h2>My story</h2>
+              <h4 className="h4">I'm Joel - a front web devloper with experinece in React and bootstrap. My expertise is bulidign responsive webiste with reusable component as well. I strive to make the web a  beautiful place</h4>
+          </div>
+          {/* <div class="col-md-12 col-xs-12"> */}
+          <div data-aos="fade-up" className="my-skills">
+              <button  onClick={experience} className="btn start btn-default">My experience</button>
+              <button onClick={skill} className="btn  btn-default">My skills</button>
+              { skills &&<h4 className="">blabla I'm Joel - a front web devloper with experinece in React and bootstrap. My expertise is bulidign responsive webiste with reusable component as well. I strive to make the web a  beautiful place</h4>}
+              { exp && <h4  className="">I'm Joel - a front web devloper with experinece in React and bootstrap. My expertise is bulidign responsive webiste with reusable component as well. I strive to make the web a  beautiful place</h4>}
+          </div>
+          </div>
+      </div>
+      // </div>
+      // </div>
+      // </div>
+      // </div>
+    )
+  }
+
 //footer component
 
 
@@ -107,58 +164,6 @@ const Footer = () => {
         </div>
       )
     }
-
-//my image component
-
-
-const MyImage = () => {
-  return (
-    <div data-aos="zoom-in" class="my-image">
-        <h1 className="about-title">About me</h1>
-        <img src="joel.jpg" />
-    </div>
-  )
-}
-
-
-
-
-//about component
-
-
-
-const About = () => {
-const[skills, setSkills] = React.useState(false)
-const[exp, setExp] = React.useState(true)
-
-function skill(){
-    setSkills(true)
-    setExp(false)
-  }
-  function experience() {
-    setSkills(false)
-    setExp(true)
-
-  }
-
-  return (
-    <div className="about" >
-        <div className="about-me">
-        <div data-aos="fade-right" className="my-story">
-            <h2>My story</h2>
-            <h4 className="h4">I'm Joel - a front web devloper with experinece in React and bootstrap. My expertise is bulidign responsive webiste with reusable component as well. I strive to make the web a  beautiful place</h4>
-        </div>
-        <div data-aos="fade-left" className="my-skills">
-            <button  onClick={experience} className="btn start btn-default">My experience</button>
-            <button onClick={skill} className="btn  btn-default">My skills</button>
-            { skills &&<h4 className="">blabla I'm Joel - a front web devloper with experinece in React and bootstrap. My expertise is bulidign responsive webiste with reusable component as well. I strive to make the web a  beautiful place</h4>}
-            { exp && <h4  className="">I'm Joel - a front web devloper with experinece in React and bootstrap. My expertise is bulidign responsive webiste with reusable component as well. I strive to make the web a  beautiful place</h4>}
-        </div>
-        </div>
-    </div>
-  )
-}
-
 
 
 
