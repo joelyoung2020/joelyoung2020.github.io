@@ -192,13 +192,10 @@ justify-content: space-between;
     width: 120px;
 }
 .form{
-    padding: 50px 30px;
-    
+    /* padding: 50px 30px; */
     transition: 2s;
     font-size: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+    width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -215,6 +212,116 @@ justify-content: space-between;
     background-color:rgb(78, 78, 209);
     border-radius: 10px;
 }
+
+/* PORTFOLIO COMPONENTS*/
+
+.portfolio-image > img{
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+}
+.portfolio{
+  box-shadow: 0 0 3px; 
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  justify-content: center;
+}
+.portfolio-content{
+  padding: 10px;
+  width: 400px;
+}
+.port{
+  max-width: 1000px;
+  margin: 50px auto;
+}
+.portfolio-tools{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.portfolio-tools > li{
+  list-style: none;
+  color: white;
+  padding: 5px;
+  background-color: rgb(160, 151, 151);
+}
+.portfolio-content > h2{
+  font-size: 40px;
+  }
+  .portfolio-content > p{
+    font-size: 20px;
+  }
+  .portfolio-btn> button{
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .portfolio-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.more > button {
+  /* background-color: blue; */
+  font-size: 20px;
+  width: 60%;
+  margin: 0 20%;
+}
+.more-work{
+  background-color: white;
+  border: 5px solid black;
+  margin: 30px ;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-y: scroll;
+  z-index: 2;
+  position: fixed;
+  top: 0px;
+  width: 95%;
+  height: 95vh;
+}
+button{
+  cursor: pointer;
+}
+.back-icon{
+  
+  font-size: 20px;
+  position: fixed;
+  z-index: 3;
+  top:5%
+}
+.back-icon > button {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+}
+.work{
+  
+  z-index: 4;
+  border: none;
+  height: 80vh;
+}
+.more{
+  height: 150px;
+}
+
+
+
+
+
+
+
 
 
 

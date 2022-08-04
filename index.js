@@ -100,16 +100,12 @@ const About = () => {
     }
   
     return (
-    //   <div class="container">
-    // <div class=" maincol row">
-    // <div class="col-md-12 col-xs-12">
       <div className="about" >
           <div className="about-me">
           <div data-aos="fade-up" className="my-story">
               <h2>My story</h2>
               <h4 className="h4">I'm Joel - a front web devloper with experinece in React and bootstrap. My expertise is bulidign responsive webiste with reusable component as well. I strive to make the web a  beautiful place</h4>
           </div>
-          {/* <div class="col-md-12 col-xs-12"> */}
           <div data-aos="fade-up" className="my-skills">
               <button  onClick={experience} className="btn start btn-default">My experience</button>
               <button onClick={skill} className="btn  btn-default">My skills</button>
@@ -118,12 +114,211 @@ const About = () => {
           </div>
           </div>
       </div>
-      // </div>
-      // </div>
-      // </div>
-      // </div>
     )
   }
+// portfolio component
+
+function Portfolio() {
+  return (
+    
+    <div>
+    <div data-aos="fade-up" className="port">
+    <div className="portfolio">
+      <div className="portfolio-image ">
+         <img className="img-responsive" src="joel.jpg" />
+      </div>
+      <div className="portfolio-content">
+      <h2>Hills's Beauty Salon</h2>
+          <p>This is website for the hill's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
+              <p>Below are the tools i worked with whike creatingthe website:</p>
+              <ul className="portfolio-tools">
+               <li>React</li>
+              <li>Bootstrap</li>
+                 <li>Hmtl</li>
+                <li>CSS</li>
+               </ul>
+              <div className="portfolio-btn">
+               <button className="btn btn-primary">View Project</button>
+              <button className="btn btn-info">View Code</button>
+               </div>
+      </div>
+    </div>
+    </div>
+    <div data-aos="fade-up" className="port">
+    <div className="portfolio">
+      <div className="portfolio-image ">
+         <img className="img-responsive" src="joel.jpg" />
+      </div>
+      <div className="portfolio-content">
+      <h2>Hills's Beauty Salon</h2>
+          <p>This is website for the hill's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
+              <p>Below are the tools i worked with whike creatingthe website:</p>
+              <ul className="portfolio-tools">
+               <li>React</li>
+              <li>Bootstrap</li>
+                 <li>Hmtl</li>
+                <li>CSS</li>
+               </ul>
+              <div className="portfolio-btn">
+               <button className="btn btn-primary">View Project</button>
+              <button className="btn btn-info">View Code</button>
+               </div>
+      </div>
+    </div>
+    </div>
+    <div data-aos="fade-up" className="port">
+    <div className="portfolio">
+      <div className="portfolio-image ">
+         <img className="img-responsive" src="joel.jpg" />
+      </div>
+      <div className="portfolio-content">
+      <h2>Hills's Beauty Salon</h2>
+          <p>This is website for the hill's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
+              <p>Below are the tools i worked with whike creatingthe website:</p>
+              <ul className="portfolio-tools">
+               <li>React</li>
+              <li>Bootstrap</li>
+                 <li>Hmtl</li>
+                <li>CSS</li>
+               </ul>
+              <div className="portfolio-btn">
+               <button className="btn btn-primary">View Project</button>
+              <button className="btn btn-info">View Code</button>
+               </div>
+      </div>
+    </div>
+    </div>
+    
+    </div>
+
+  )
+}
+
+function More() {
+
+  const[work, setWork] = React.useState(false)
+  function show(){
+      setWork(!work)
+  }
+  return (
+    <div className="more">
+      <button onClick={show}className="btn btn-default">View more works</button>
+    <div className="work">
+      { work && <div className="more-work">
+        <div className="back-icon"><button onClick={show}><i class="fa fa-close" aria-hidden="true"></i></button></div>
+        <div className="work-detail">
+        {/* <img className="img-responsive" src="joel.jpg" />
+        <button>View Code</button> */}
+          <div data-aos="fade-up" className="port">
+    <div className="portfolio work">
+      <div className="portfolio-image ">
+         <img className="img-responsive" src="joel.jpg" />
+      </div>
+      <div className="portfolio-content">
+      <h2>Hills's Beauty Salon</h2>
+          <p>This is website for the hill's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
+              <p>Below are the tools i worked with whike creatingthe website:</p>
+              <ul className="portfolio-tools">
+               <li>React</li>
+              <li>Bootstrap</li>
+                 <li>Hmtl</li>
+                <li>CSS</li>
+               </ul>
+              <div className="portfolio-btn">
+               <button className="btn btn-primary">View Project</button>
+              <button className="btn btn-info">View Code</button>
+               </div>
+      </div>
+    </div>
+    </div>
+        </div>
+        <div className="work-detail">
+        {/* <img className="img-responsive" src="joel.jpg" />
+        <button>View Code</button> */}
+           <div data-aos="fade-up" className="port">
+    <div className="portfolio work">
+      <div className="portfolio-image ">
+         <img className="img-responsive" src="joel.jpg" />
+      </div>
+      <div className="portfolio-content">
+      <h2>Hills's Beauty Salon</h2>
+          <p>This is website for the hill's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
+              <p>Below are the tools i worked with whike creatingthe website:</p>
+              <ul className="portfolio-tools">
+               <li>React</li>
+              <li>Bootstrap</li>
+                 <li>Hmtl</li>
+                <li>CSS</li>
+               </ul>
+              <div className="portfolio-btn">
+               <button className="btn btn-primary">View Project</button>
+              <button className="btn btn-info">View Code</button>
+               </div>
+      </div>
+      </div>
+      </div>
+        </div>
+        <div className="work-detail">
+        {/* <img className="img-responsive" src="joel.jpg" />
+        <button>View Code</button> */}
+          <div data-aos="fade-up" className="port">
+    <div className="portfolio work">
+      <div className="portfolio-image ">
+         <img className="img-responsive" src="joel.jpg" />
+      </div>
+      <div className="portfolio-content">
+      <h2>Hills's Beauty Salon</h2>
+          <p>This is website for the hill's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
+              <p>Below are the tools i worked with whike creatingthe website:</p>
+              <ul className="portfolio-tools">
+               <li>React</li>
+              <li>Bootstrap</li>
+                 <li>Hmtl</li>
+                <li>CSS</li>
+               </ul>
+              <div className="portfolio-btn">
+               <button className="btn btn-primary">View Project</button>
+              <button className="btn btn-info">View Code</button>
+               </div>
+      </div>
+      </div>
+      </div>
+        </div>
+        {/* <div className="work-detail">
+        <img className="img-responsive" src="joel.jpg" /> */}
+          <div data-aos="fade-up" className="port">
+    <div className="portfolio work">
+      <div className="portfolio-image ">
+         <img className="img-responsive" src="joel.jpg" />
+      </div>
+      <div className="portfolio-content">
+      <h2>Hills's Beauty Salon</h2>
+          <p>This is website for the hill's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
+              <p>Below are the tools i worked with whike creatingthe website:</p>
+              <ul className="portfolio-tools">
+               <li>React</li>
+              <li>Bootstrap</li>
+                 <li>Hmtl</li>
+                <li>CSS</li>
+               </ul>
+              <div className="portfolio-btn">
+               <button className="btn btn-primary">View Project</button>
+              <button className="btn btn-info">View Code</button>
+               </div>
+      </div>
+      </div>
+      </div>
+        </div>
+      }
+    </div>
+    </div>
+  )
+}
+
+
+
+
+
 
 //footer component
 
@@ -146,7 +341,7 @@ const Footer = () => {
               <input type="text" placeholder="Your name" />
               <div className="input">
                   <input type="email" placeholder="Your email" />
-                  <input type="text" placeholder="Your phone number" />
+                  {/* <input type="text" placeholder="Your phone number" /> */}
               </div>
               <textarea rows="6" cols="50" placeholder="Your message"></textarea>
               <button  className = "btn btn-foot">Submit</button>
@@ -175,6 +370,9 @@ const App = () => {
         <Intro/>
         <MyImage/>
         <About/>
+        <Portfolio/> 
+        <More/>
+        
         <Footer/>
     </div>
   )
