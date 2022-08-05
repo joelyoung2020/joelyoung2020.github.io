@@ -40,19 +40,15 @@ img{
   left:80px;
   font-size: 20px;
 }
-.intro{
-  max-width: 400px;
-}
 .object{
   margin-top: -10px;
   height: 30px;
-  /* background-color: blue; */
   color: rgb(78, 78, 209);
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 
 
 
@@ -97,7 +93,7 @@ h2{
 }
 .my-story{
     border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px#333;
+    box-shadow: 0 0 3px ;
     margin-top: 30px;
     margin-bottom: 2px;
     margin-right: 5px;
@@ -119,7 +115,7 @@ h2{
 }
 
 .my-skills > h4{
-    box-shadow: 2px 2px 2px 2px#333;
+    box-shadow: 0 0 3px ;
     padding-top: 80px;
     max-width: 500px;
     border-radius: 20px;
@@ -127,7 +123,22 @@ h2{
     font-weight: bold;
     font-size: 20px;
 }
-
+.h4 > p{
+  text-indent: 20px;
+}
+.img-responsiv{
+  width: 100px;
+  height: 100px;
+}
+.skills-grid{
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-name{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
 
 
 /* FOOTER COMPONENT */
@@ -203,8 +214,6 @@ justify-content: space-between;
 .btn-foot{
     width: 50%;
     margin: 0 auto;
-    /* margin-left: 40%;
-    margin-right: 40%;*/
    margin-top: 20px;
     height: 40px;
     font-size: 20px;
@@ -214,7 +223,13 @@ justify-content: space-between;
 }
 
 /* PORTFOLIO COMPONENTS*/
-
+#portfolio > div{
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
 .portfolio-image > img{
   width: 500px;
   height: 400px;
@@ -428,6 +443,7 @@ h1 {
 .box {
   margin-top: 30px;
   font-size: 40px;
+  font-family: 'Alfa Slab One', cursive;
   color: rgb(78, 78, 209);
   font-weight: 900;
 }
@@ -438,4 +454,31 @@ h1 {
   transform: rotateX(180deg);
   -webkit-background-clip: text;
   color: #ddd;
+}
+
+/* portfolio header */
+
+.waviy {
+    
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span {
+  color:rgb(78, 78, 209);
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
 }
