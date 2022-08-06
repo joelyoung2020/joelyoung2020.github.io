@@ -34,7 +34,7 @@ const Intro = () => {
     <div class="col-md-6 col-xs-12">
     
        <div className="image img-responsive">
-       <a href="#portfolio"><button class="caption" data-aos="flip-right" className="img-btn  btn btn-primary">Check me out</button></a>
+       <a href="JoelCV-2.pdf" downlaoad="CV Joel Okebugwu"><button class="caption" data-aos="flip-right" className="img-btn  btn btn-primary">Download CV</button></a>
            <img className="img-responsive" src="5e819dd760bb1a623bbc6dae.png"/>
         </div>
         </div>
@@ -218,7 +218,7 @@ function Portfolio() {
       <div className="portfolio-content">
       <h2>Maverick's Beauty Salon</h2>
           <p>This is website for the Maverick's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery of haircut, prices for services and contact informations</p>
-              <p>Below are the tools I worked with:</p>
+            
               <ul className="portfolio-tools">
                <li>React</li>
               <li>Bootstrap</li>
@@ -240,7 +240,7 @@ function Portfolio() {
       <div className="portfolio-content">
       <h2>Flames Security Agency</h2>
           <p>This is website for the Flames security agency located in Abia state, Nigeria, it is responsive to different screen sizes and includes an about page,list of services and contact informations</p>
-              <p>Below are the tools i worked with whike creatingthe website:</p>
+              
               <ul className="portfolio-tools">
                <li>React</li>
               <li>Bootstrap</li>
@@ -262,7 +262,6 @@ function Portfolio() {
       <div className="portfolio-content">
       <h2>My Portfolio Website</h2>
           <p>This is my personal website I designed it to showcase my portfolio, skills, experience and contact information for any potential client or job recruiter to use.</p>
-              <p>Below are the tools i worked with whike creatingthe website:</p>
               <ul className="portfolio-tools">
                <li>React</li>
               <li>Bootstrap</li>
@@ -283,10 +282,9 @@ function Portfolio() {
       <div className="portfolio-content">
       <h2>Task Mananger Chrome Extension</h2>
           <p>This is a simple application for adding tasks it can be very useful and even more when added to chrome extension.</p>
-              <p>Below are the tools i worked with whike creatingthe website:</p>
+    
               <ul className="portfolio-tools">
-               <li>React</li>
-              <li>Bootstrap</li>
+               <li>Javascript</li>
                  <li>Hmtl</li>
                 <li>CSS</li>
                </ul>
