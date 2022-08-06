@@ -238,7 +238,7 @@ function Portfolio() {
          <img className="img-responsive" src="security agency snipping.PNG" />
       </div>
       <div className="portfolio-content">
-      <h2>Flames security agency</h2>
+      <h2>Flames Security Agency</h2>
           <p>This is website for the Flames security agency located in Abia state, Nigeria, it is responsive to different screen sizes and includes an about page,list of services and contact informations</p>
               <p>Below are the tools i worked with whike creatingthe website:</p>
               <ul className="portfolio-tools">
@@ -260,8 +260,8 @@ function Portfolio() {
          <img className="img-responsive" src="portfolio snipping.JPG" />
       </div>
       <div className="portfolio-content">
-      <h2>My portfolio website</h2>
-          <p>This is website for the hill's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
+      <h2>My Portfolio Website</h2>
+          <p>This is my personal website I designed it to showcase my portfolio, skills, experience and contact information for any potential client or job recruiter to use.</p>
               <p>Below are the tools i worked with whike creatingthe website:</p>
               <ul className="portfolio-tools">
                <li>React</li>
@@ -281,8 +281,8 @@ function Portfolio() {
          <img className="img-responsive" src="task manager2.PNG" />
       </div>
       <div className="portfolio-content">
-      <h2>Task mananger</h2>
-          <p>This is website for the hill's beauty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
+      <h2>Task Mananger Chrome Extension</h2>
+          <p>This is a simple application for adding tasks it can be very useful and even more when added to chrome extension.</p>
               <p>Below are the tools i worked with whike creatingthe website:</p>
               <ul className="portfolio-tools">
                <li>React</li>

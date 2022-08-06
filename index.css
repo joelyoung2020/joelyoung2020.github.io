@@ -13,7 +13,6 @@ body{
   font-size: 25px;
 }
 .container{
-  font-family: 'Alfa Slab One', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +92,6 @@ h2{
     text-align: center;
 }
 .my-story{
-  font-family: 'Alfa Slab One', cursive;
     border-radius: 20px;
     box-shadow: 0 0 3px ;
     margin-top: 30px;
@@ -119,7 +117,7 @@ h2{
   font-weight: bold;
 }
 .my-skills > h4{
-  font-family: 'Alfa Slab One', cursive;
+  
     box-shadow: 0 0 3px ;
     padding-top: 80px;
     max-width: 500px;
@@ -128,7 +126,7 @@ h2{
     font-size: 20px;
 }
 .h4 > p{
-  font-family: 'Alfa Slab One', cursive;
+  
   text-indent: 20px;
 }
 .img-responsiv{
@@ -252,7 +250,7 @@ justify-content: space-between;
   justify-content: center;
 }
 .portfolio-content{
-  font-family: 'Alfa Slab One', cursive;
+  
   padding: 10px;
   width: 400px;
 }
@@ -275,6 +273,7 @@ justify-content: space-between;
   background-color: rgb(160, 151, 151);
 }
 .portfolio-content > h2{
+  font-family: 'Alfa Slab One', cursive;
   font-size: 40px;
   }
   .portfolio-content > p{
