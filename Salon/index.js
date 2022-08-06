@@ -11,15 +11,15 @@ const Navbar = () => {
 
     <div id="sidebar-nav" className="collapse-in navbar-collapse">
                 <ul class="nav nav-stacked">
-                    <li><a href=""> <span onMouseEnter={() => setSee(true)}
+                    <li><a href="#main"> <span onMouseEnter={() => setSee(true)}
         onMouseLeave={() => setSee(false)}  ><i class="fa fa-home"></i></span>{see && <span  className="icon-text">Home</span>}</a></li>
-                    <li><a href=""> <span onMouseEnter={() => setSeeone(true)}
+                    <li><a href="#about"> <span onMouseEnter={() => setSeeone(true)}
         onMouseLeave={() => setSeeone(false)}><i class="fa fa-user"></i></span>{seeone && <span className="icon-text">About</span>}</a></li>
-                    <li><a href=""> <span onMouseEnter={() => setSee2(true)}
+                    <li><a href="#services"> <span onMouseEnter={() => setSee2(true)}
         onMouseLeave={() => setSee2(false)} ><i class="fa fa-gears"></i></span>{see2 && <span className="icon-text">Serives</span>}</a></li>
-                    <li><a href=""> <span onMouseEnter={() => setSee3(true)}
+                    <li><a href="#gallery"> <span onMouseEnter={() => setSee3(true)}
         onMouseLeave={() => setSee3(false)}><i class="fa fa-picture-o"></i></span>{see3 && <span className="icon-text">Gallery</span>}</a></li>
-                    <li><a href=""> <span onMouseEnter={() => setSee4(true)}
+                    <li><a href="#contacticon"> <span onMouseEnter={() => setSee4(true)}
         onMouseLeave={() => setSee4(false)} ><i class="fa fa-phone"></i></span>{see4 && <span className="icon-text">Contacts</span>}</a></li>
 
                 </ul>
@@ -33,14 +33,14 @@ const Navbar = () => {
 
 function Front() {
   return (
-    <div className="front">
-      <h1>Hill's </h1>
+    <div id="main" className="front">
+      <h1>Maverick's </h1>
       <div>Beauty Salon</div>
       <ul data-aos="zoom-in" className="object">
-                           <h2><i class="fa fa-twitter"></i></h2>
-                           <h2><i class="fa fa-instagram"></i></h2>
+                           <a href="https://wa.me/2348183250984"><h2><i class="fa fa-whatsapp"></i></h2></a>
+                           <a href="https://twitter.com/Maverick_Cave?t=9dD69iFRSqfofc8Jf2UcPw&s=08"><h2><i class="fa fa-twitter"></i></h2></a>
                            {/* <h2><i class="fa fa-envelope"></i></h2> */}
-                           <h2><i class="fa fa-phone"></i></h2>
+                           <a href="tel:+2348183250984"><h2><i class="fa fa-phone"></i></h2></a>
                         </ul>
     </div>
   )
@@ -51,7 +51,7 @@ AOS.init();
 
 function About() {
   return (
-    <div className="container about">
+    <div id="about" className="container about">
     <div className="row">
             <div className="innercol1 col-md-7 col-md-offset-1 col-xs-12">
                 <div data-aos="flip-right"  class="col col2">
@@ -73,7 +73,7 @@ function About() {
 
 function Gallery() {
   return (
-    <div className="main-gallery">
+    <div id="gallery" className="main-gallery">
       <h1>GALLERY</h1>
       <div className="container gallery">
     <div   className="row">
@@ -118,7 +118,7 @@ function Gallery() {
 
 function Services() {
   return (
-    <div className="main-services">
+    <div id="services" className="main-services">
     <div className="services">
       <div>
         <h1>Services</h1>
@@ -147,6 +147,8 @@ function Services() {
     </div>
   )
 }
+
+
 //contacts
 
 
@@ -165,16 +167,6 @@ function Contacts() {
                  <textarea rows="6" cols="50" placeholder="Your message"></textarea>
                  <button data-aos="zoom-in" className = "btn btn-foot">Book</button>
                </form>
-             
-             {/* <div className="back">
-            <a href="#main"><h4>Back to the top</h4></a>
-            <br></br><br></br>
-            <div className="design-by">
-             <div >Designed and produced by 
-               <div >Joel Okebugwu</div>
-               </div>
-            </div>
-            </div> */}
             </div>
            </div>
   )
@@ -209,14 +201,8 @@ function Info() {
     </div> 
     <div className="back">
             <a href="#main"><h4>Back to the top</h4></a>
-            <br></br><br></br>
-            <div className="design-by">
-             <div >Designed and produced by 
-               <div >Joel Okebugwu</div>
-               </div>
             </div>
             </div>
-    </div>
   )
 }
 

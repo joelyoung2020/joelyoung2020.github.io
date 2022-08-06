@@ -66,35 +66,35 @@ const Services = () => {
                   <div data-aos="fade-up"  class="col-md-4 col-sm-6col-xs-12">
                   <img src="dog images (1).png"/>
                     <div>
-                    <h1>Guard dogs</h1>
+                    <h1>Guard Dogs</h1>
                     <h4>We have different breed of weel trained security dogs that are assigned to beats of work to keep watch and secure our clients</h4>
                   </div>
                   </div>
                   <div data-aos="fade-up" class="col-md-4 col-sm-6 col-xs-12">
                   <h1><i class="fa fa-lock"></i></h1>
                     <div>
-                    <h1>Industrial security</h1>
+                    <h1>Industrial Security</h1>
                     <h4>We opearte as personnels and also use doges to secure and inspect the industry</h4>
                   </div>
                   </div>
                   <div data-aos="fade-up" class="col-md-4 col-sm-6 col-xs-12">
                     <img src="enterprise-security-officer-security-guard-icon-free-hd.png"/>
                     <div>
-                       <h2>Escort services </h2>
+                       <h2>Escort Services </h2>
                        <h4>We provide personnel escorts, vehicle escort,airport escort and many more for your safety to any destination</h4>
                   </div>
                   </div>
                   <div data-aos="fade-up" class="col-md-4 col-sm-6 col-xs-12">
                   <img src="cctv.png"/>
                     <div>
-                    <h1>Events security</h1>
+                    <h1>Events Security</h1>
                     <h4>Personnels and dogs secuirty over the place of events and having the safety of it's client and guests</h4>
                   </div>
                   </div>
                   <div data-aos="fade-up" class="col-md-4 col-sm-6 col-xs-12">
                   <img src="home.jpg"/>
                     <div>
-                       <h2>Resident home guard</h2>
+                       <h2>Resident Home Guard</h2>
                        <h4>Guard dogs/personnels or both residing at same place with the principal/clients to secure the client and environment and make it conducive and safe</h4>
                   </div>
                   </div>
@@ -120,8 +120,8 @@ const About = () => {
         </div>
         <div data-aos="flip-left" class="col-md-6 col-xs-12">
         <div className="intro">
-           <h1>No 1 security agency in Nigeria</h1>
-           <h5>FLAMES SECURITY AGENCY is a Nigerian limited liablity company registered in Nigeria for the provsion of advanced security technology services.</h5>
+           <h1>No 1 Security Agency in Nigeria</h1>
+           <p>FLAMES SECURITY AGENCY is a Nigerian limited liablity company registered in Nigeria for the provsion of advanced security technology services.</p>
            <p>Our expertise in the fields of special protection,consulting and instructing. FLAMES Security Agency was set up top meet the demadn for professional security knowledge and capabilities for the industrial, private adn government sectors</p>
            <p> We have established our reputation at the forefront of security companies in Nigeria, utilizing a wide range of the most advanced security systems,teams of high-standard professional quards and leading security means using the last methods, mixed martial art, tecnological equipments and knowledge.</p>
            <p> Our company is th first choice of many security-conscious oragnizations, business men and high-profile figures </p>
@@ -166,14 +166,8 @@ const Footer = () => {
     </div> 
     <div className="back">
           <h4><a href="#main">Back to the top</a></h4>
-            <br></br><br></br>
-            <div className="design-by">
-               <div >Designed and produced by 
-                  <div>Joel Okebugwu</div>
-               </div>
             </div>
             </div>
-    </div>
   )
 }
 

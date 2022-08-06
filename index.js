@@ -43,12 +43,12 @@ const Intro = () => {
            <div class="main">
               <div class="box" id="box1">HELLO! I'm Joel</div>
            </div>
-           <h3>-A front web developer with experience in React and Bootstrap. My expertise is buliding responsive webiste with reusable component, I strive to make the web a  beautiful place</h3>
+           <h3>A front web developer with experience in React and Bootstrap. My expertise is buliding responsive and interactive website for both desktop and mobile platforms with reusable component. I strive to make the web a  beautiful place</h3>
            <div className="intro-cont">
               <ul className="object">
                  <h2><a href="https://www.linkedin.com/in/joel-okebugwu-6762b3240/"><i class="fa fa-linkedin"></i></a></h2>
                  <h2><a href="https://www.github.com/joelyoung2020"><i class="fa fa-github"></i></a></h2>
-                 <h2><a href="https://www.instagram.com/jayy_young?igshid=YmMyMTA%22M%22Y="><i class="fa fa-instagram"></i></a></h2>
+                 <h2><a href="https://www.instagram.com/jayy_yong?igshid=YmMyMTA%22M%22Y="><i class="fa fa-instagram"></i></a></h2>
                  <h2><a href="mailto:joelokebugwu1998@gmail.com"><i class="fa fa-envelope"></i></a></h2>
                  <h2><a href="tel:+2349038245421"><i class="fa fa-phone"></i></a></h2>
               </ul>
@@ -114,7 +114,7 @@ const About = () => {
           <div data-aos="fade-up" className="my-skills">
               <button  onClick={experience} className="btn start btn-default">My experience</button>
               <button onClick={skill} className="btn  btn-default">My skills</button>
-              { skills &&<h4 className="">
+              { skills &&<h4>
                 <div className="skills-grid">
                      <div class="col-md-4 col-xs-4">
                     <h5 className="skills-name">Github</h5>
@@ -154,7 +154,34 @@ const About = () => {
                   </div>
                 </div>
                 </h4>}
-              { exp && <h4  className="">I'm Joel - a front web devloper with experinece in React and bootstrap. My expertise is bulidign responsive webiste with reusable component as well. I strive to make the web a  beautiful place</h4>}
+              { exp && <h4>
+                <p>April 2021 - present </p>
+                <p className="job-title">Front End Developer</p>
+                <p>Upwork</p>
+                <br/>
+                <p>Freelance job creating interative website using a mobile first approach with the use of msotly React and Bootstrap </p>
+                <br></br>
+                <p>
+                  <ul>
+                    <li>Coded using HTML, CSS, Javascript to develop features for both mobile and desktop platforms</li>
+                    <br/>
+                    <li>Designed and updated layouts to meet usability and performance requirements</li>
+                    <br/>
+                    <li>Liased woth back end developer worked on integrating front end assets to back end systems
+                    </li>
+                    <br/>
+                    <li>Code Debugging</li>
+                    <br/>
+                    <li>Probem solving with critical thinking</li>
+                  </ul>
+                </p>
+                <br/><br/>
+                <p>June 2018- June 2020</p>
+                <p className="job-title">Teacher's Assistant</p>
+                <p>Ebun Heritage School, Ikotun Lagos</p>
+                <br/>
+                <p>It was my first job, I was employed to be the Assist the Mathematics teacher in a junior class. It was a good learning experience, I got to work with various other teacher and participate in group exercises which facilitates leanring </p>
+               </h4>}
           </div>
           </div>
       </div>
@@ -186,12 +213,12 @@ function Portfolio() {
     <div data-aos="fade-up" className="port">
     <div className="portfolio">
       <div className="portfolio-image ">
-         <img className="img-responsive" src="joel.jpg" />
+         <img className="img-responsive" src="salonsnipping.JPG" />
       </div>
       <div className="portfolio-content">
-      <h2>Hills's Beauty Salon</h2>
-          <p>This is website for the hill's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
-              <p>Below are the tools i worked with whike creatingthe website:</p>
+      <h2>Maverick's Beauty Salon</h2>
+          <p>This is website for the Maverick's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery of haircut, prices for services and contact informations</p>
+              <p>Below are the tools I worked with:</p>
               <ul className="portfolio-tools">
                <li>React</li>
               <li>Bootstrap</li>
@@ -199,8 +226,8 @@ function Portfolio() {
                 <li>CSS</li>
                </ul>
               <div className="portfolio-btn">
-               <button className="btn btn-primary">View Project</button>
-              <button className="btn btn-info">View Code</button>
+               <a href="https://joelyoung2020.github.io/Salon/"><button className="btn btn-primary">View Project</button></a>
+               <a href="https://github.com/joelyoung2020/Website-for-Maverick-s-beauty-shop"><button className="btn btn-info">View Code</button></a>
                </div>
       </div>
     </div>
@@ -208,11 +235,11 @@ function Portfolio() {
     <div data-aos="fade-up" className="port">
     <div className="portfolio">
       <div className="portfolio-image ">
-         <img className="img-responsive" src="joel.jpg" />
+         <img className="img-responsive" src="security agency snipping.PNG" />
       </div>
       <div className="portfolio-content">
-      <h2>Hills's Beauty Salon</h2>
-          <p>This is website for the hill's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
+      <h2>Flames security agency</h2>
+          <p>This is website for the Flames security agency located in Abia state, Nigeria, it is responsive to different screen sizes and includes an about page,list of services and contact informations</p>
               <p>Below are the tools i worked with whike creatingthe website:</p>
               <ul className="portfolio-tools">
                <li>React</li>
@@ -221,8 +248,8 @@ function Portfolio() {
                 <li>CSS</li>
                </ul>
               <div className="portfolio-btn">
-               <button className="btn btn-primary">View Project</button>
-              <button className="btn btn-info">View Code</button>
+              <a href="https://joelyoung2020.github.io/security/"> <button className="btn btn-primary">View Project</button></a>
+              <a href="https://github.com/joelyoung2020/website-for-flames-security"> <button className="btn btn-info">View Code</button></a>
                </div>
       </div>
     </div>
@@ -230,10 +257,10 @@ function Portfolio() {
     <div data-aos="fade-up" className="port">
     <div className="portfolio">
       <div className="portfolio-image ">
-         <img className="img-responsive" src="joel.jpg" />
+         <img className="img-responsive" src="portfolio snipping.JPG" />
       </div>
       <div className="portfolio-content">
-      <h2>Hills's Beauty Salon</h2>
+      <h2>My portfolio website</h2>
           <p>This is website for the hill's beuaty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
               <p>Below are the tools i worked with whike creatingthe website:</p>
               <ul className="portfolio-tools">
@@ -243,10 +270,32 @@ function Portfolio() {
                 <li>CSS</li>
                </ul>
               <div className="portfolio-btn">
-               <button className="btn btn-primary">View Project</button>
-              <button className="btn btn-info">View Code</button>
+               <a href="https://joelyoung2020.github.io/"><button className="btn btn-primary">View Project</button></a>
+               <a href="https://github.com/joelyoung2020/Website-for-my-personal-portfolio"><button className="btn btn-info">View Code</button></a>
                </div>
       </div>
+    </div>
+    <div data-aos="fade-up" className="port">
+    <div className="portfolio">
+      <div className="portfolio-image ">
+         <img className="img-responsive" src="task manager2.PNG" />
+      </div>
+      <div className="portfolio-content">
+      <h2>Task mananger</h2>
+          <p>This is website for the hill's beauty salon located in Port harcourt nigeria, it show cases their story, gallery, prices for services and contact info as well as a means to book an appointment</p>
+              <p>Below are the tools i worked with whike creatingthe website:</p>
+              <ul className="portfolio-tools">
+               <li>React</li>
+              <li>Bootstrap</li>
+                 <li>Hmtl</li>
+                <li>CSS</li>
+               </ul>
+              <div className="portfolio-btn">
+              <a href=""><button className="btn btn-primary">View Project</button></a>
+               <a href="https://github.com/joelyoung2020/TASK-MANAGER"><button className="btn btn-info">View Code</button></a>
+               </div>
+      </div>
+    </div>
     </div>
     </div>
     </div>
@@ -268,8 +317,15 @@ const Footer = () => {
           <h2 className="footer-title">Get in touch </h2>
           
           <div className="footer-div newobject">
+          <ul className="object">
+                 <h2><a href="https://www.linkedin.com/in/joel-okebugwu-6762b3240/"><i class="fa fa-linkedin"></i></a></h2>
+                 <h2><a href="https://www.github.com/joelyoung2020"><i class="fa fa-github"></i></a></h2>
+                 <h2><a href="https://www.instagram.com/jayy_yong?igshid=YmMyMTA%22M%22Y="><i class="fa fa-instagram"></i></a></h2>
+                 <h2><a href="mailto:joelokebugwu1998@gmail.com"><i class="fa fa-envelope"></i></a></h2>
+                 <h2><a href="tel:+2349038245421"><i class="fa fa-phone"></i></a></h2>
+              </ul>
             <h2>Want to work together or have any question?</h2>
-            <button style={{backgroundColor:footerShow &&"red",color:footerShow &&"white"}} data-aos="fade-right" onClick={show}className = "btn btn-foot">{footerShow ? "Not now " : "Say hello "}</button>
+            <button style={{backgroundColor:footerShow &&"red",color:footerShow &&"white"}} data-aos="fade-right" onClick={show}className = "btn btn-foot">{footerShow ? "Not now " : "Say Hello "}</button>
 
             { footerShow && <form data-aos="fade-up"className="form">
               <input type="text" placeholder="Your name" />
@@ -305,7 +361,6 @@ const App = () => {
         <MyImage/>
         <About/>
         <Portfolio/> 
-         {/* <More/> */}
         <Footer/>
     </div>
   )

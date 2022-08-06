@@ -80,10 +80,17 @@ a:hover{
     background-color: black;
     color: white;;
 }
+
+
+/* ABOUT COMPONENT */
 .intro{
     background-color: aliceblue;
     padding: 15px ;
     color: black;
+  }
+  .intro > p{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 15px;
   }
 .about{
     /* height: 150vh; */
@@ -96,32 +103,11 @@ a:hover{
 .back >h4{
     text-align: center;
   }
-  .design-by >div{
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 15px;
-    height: 40px;
-    margin-bottom: 20px;
-  }
-  .design-by >div >div{
-    margin-left: 10px;
-    border-radius: 5px;
-    display: flex;
-    padding: 10px 10px;
-    align-items: center;
-    justify-content: center;
-    color:rgb(78, 78, 209);
-    background-color: black;
-    font-size: 20px;
-    height: 40px;
-  }
   .info > h3{
     font-size: 30px;
     color: orange;
     font-weight: bold;
+    font-family: 'Alfa Slab One', cursive;
   }
   .gallery{
     margin: 0 auto;
