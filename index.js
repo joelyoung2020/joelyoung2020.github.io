@@ -34,7 +34,7 @@ const Intro = () => {
     <div class="col-md-6 col-xs-12">
     
        <div className="image img-responsive">
-       <a href="JoelCV-2.pdf" downlaoad="CV Joel Okebugwu"><button class="caption" data-aos="flip-right" className="img-btn  btn btn-primary">Download CV</button></a>
+       <a href="JoelCV-2.pdf" download="CV Joel Okebugwu"><button class="caption" data-aos="flip-right" className="img-btn  btn btn-primary">Download CV</button></a>
            <img className="img-responsive" src="5e819dd760bb1a623bbc6dae.png"/>
         </div>
         </div>
