@@ -72,9 +72,8 @@ a:hover{
     font-family: 'Alfa Slab One', cursive;
 color: white;
 }
-.object{
+.icon{
     width: 300px;
-    /* background-color: blue; */
     margin-top: -10px;
     height: 30px;
     color: black;
@@ -82,7 +81,7 @@ color: white;
     align-items: center;
     justify-content: space-between;
 }
-.object >a> h2{
+.icon >a> h2{
     color: rgb(243, 222, 222);
 }
 a:hover {
@@ -91,7 +90,7 @@ a:hover {
     font-size: 40px;
 }
 .about{
-    height: 100vh;
+    margin: 10% 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,8 +135,6 @@ a:hover {
 .gallery{
     margin: 0 auto;
     max-width: 700px;
-    /* margin-left: 5%;
-    margin-right: 5%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,7 +148,6 @@ color:orange;
 font-weight: bold;
 }
 .main-services{
-    /* background-color: antiquewhite; */
     background-image: url(abstract-low-poly-orange-yellow-background_1017-32111.webp);
     padding-top: 5px;
     color: whitesmoke;
@@ -185,6 +181,7 @@ font-weight: bold;
     align-items: center;
     justify-content: space-between;
 }
+/* FOOTER COMPONENTS */
 .footer{
     background-image: url(abstract-low-poly-orange-yellow-background_1017-32111.webp);
     display: flex;
@@ -205,6 +202,18 @@ font-weight: bold;
     text-align: center;
     color: white;
     font-size: 40px;
+}
+.footer-icon{
+    /* width: 300px; */
+    margin-top: -10px;
+    height: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-icon >a> h2{
+    color: orange;
 }
 .btn-foot{
     width: 50%;

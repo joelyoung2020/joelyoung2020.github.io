@@ -145,7 +145,7 @@ const Footer = () => {
                 <div data-aos="zoom-in" class=" info col col2">
                 <h3>Say Hello</h3>
                     <p>Address: Old Army check point Umudike Ikwuano Abia State</p>
-                    <p>Phone: 09038245421</p>
+                    <p>Phone: +2347034528136</p>
                     <p>Email: flmsscrtgnc@gamil.com</p>
                 </div>
             </div>
@@ -156,8 +156,8 @@ const Footer = () => {
                      <li><a href="https://www.instagram.com/flamessecurityagency?igshid=YmMyMTAM2Y="><i class="fa fa-instagram"></i> Message</a></li>
                      {/* <li><i class="fa fa-facebook"></i></li>
                      <li><i class="fa fa-twitter"></i></li> */}
-                     <li><a href="mailto:flmsscrtgnc@gamil.com"><i class="fa fa-envelope"></i> Send email</a></li>
-                     <li><a href="tel:+2347034528136"><i class="fa fa-phone"></i> Call us now</a></li>
+                     <li><a href="mailto:flmsscrtgnc@gamil.com"><i class="fa fa-envelope"></i> Email</a></li>
+                     <li><a href="tel:+2347034528136"><i class="fa fa-phone"></i> Call Us</a></li>
                   </ul>
                 </div>
             </div>

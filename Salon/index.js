@@ -36,7 +36,7 @@ function Front() {
     <div id="main" className="front">
       <h1>Maverick's </h1>
       <div>Beauty Salon</div>
-      <ul data-aos="zoom-in" className="object">
+      <ul data-aos="zoom-in" className="icon">
                            <a href="https://wa.me/2348183250984"><h2><i class="fa fa-whatsapp"></i></h2></a>
                            <a href="https://twitter.com/Maverick_Cave?t=9dD69iFRSqfofc8Jf2UcPw&s=08"><h2><i class="fa fa-twitter"></i></h2></a>
                            {/* <h2><i class="fa fa-envelope"></i></h2> */}
@@ -55,13 +55,14 @@ function About() {
     <div className="row">
             <div className="innercol1 col-md-7 col-md-offset-1 col-xs-12">
                 <div data-aos="flip-right"  class="col col2">
-                    <img src="7175EHtzjhL._SL1500_.jpg"/>
+                    <img src="IMG-20220802-WA0003.jpg"/>
                 </div>
             </div>
             <div className="innercol2 col-md-3 col-xs-12">
                 <div className="col col2">
                   <h1>Our Story</h1>
-                    <div>growing up in the hood</div>
+                    <div>Growing up in the hood showed me the significance of a Saloon, like a field for kids to play. The Saloon is a pillar of the neighbourhood, impacting the kid and adult in a positive way has been the goal ever since. </div>
+                    <div>Not alot of people recognize the power that comes with beign able to modify one's look, it's like a way to tap into their world and when you can tap into a world you can effect change.</div>
                 </div>
             </div>
     </div>     
@@ -79,32 +80,32 @@ function Gallery() {
     <div   className="row">
             <div className="innercol col-md-4 col-xs-12 col-sm-6">
                 <div data-aos="fade-down" class="col col2">
-                    <img src="7175EHtzjhL._SL1500_.jpg"/>
+                    <img src="IMG-20220802-WA0003.jpg"/>
                 </div>
             </div>
             <div className="innercol col-md-4 col-xs-12 col-sm-6">
                 <div data-aos="fade-up" className="col col2">
-                  <img src="7175EHtzjhL._SL1500_.jpg"/>
+                  <img src="IMG-20220803-WA0002.jpg"/>
                 </div>
             </div>
             <div className="innercol col-md-4 col-xs-12 col-sm-6">
                 <div data-aos="fade-down" className="col col2">
-                  <img src="7175EHtzjhL._SL1500_.jpg"/>
+                  <img src="IMG-20220804-WA0031.jpg"/>
                 </div>
             </div>
             <div className="innercol col-md-4 col-xs-12 col-sm-6">
                 <div  data-aos="fade-up" className="col col2">
-                  <img src="7175EHtzjhL._SL1500_.jpg"/>
+                  <img src="IMG-20220802-WA0003.jpg"/>
                 </div>
             </div>
             <div className="innercol col-md-4 col-xs-12 col-sm-6">
                 <div  data-aos="fade-down" className="col col2">
-                  <img src="7175EHtzjhL._SL1500_.jpg"/>
+                  <img src="IMG-20220803-WA0002.jpg"/>
                 </div>
             </div>
             <div className="innercol col-md-4 col-xs-12 col-sm-6">
                 <div data-aos="fade-up" className="col col2">
-                  <img src="7175EHtzjhL._SL1500_.jpg"/>
+                  <img src="IMG-20220804-WA0031.jpg"/>
                 </div>
             </div>
     </div>     
@@ -124,24 +125,24 @@ function Services() {
         <h1>Services</h1>
       </div>
       <div class="services-list">
-      <h3>beard trim</h3>
-      <span>#500</span>
+      <h3>Hairtyling</h3>
+      <span>#2000</span>
       </div>
       <div class="services-list">
-      <h3>beard trim</h3>
-      <span>#500</span>
+      <h3>Pedicure and Manicure</h3>
+      <span>#5000</span>
       </div>
       <div class="services-list">
-      <h3>beard trim</h3>
-      <span>#500</span>
+      <h3>Exfoliation</h3>
+      <span>#4000</span>
       </div>
       <div class="services-list">
-      <h3>beard trim</h3>
-      <span>#500</span>
+      <h3>Gaming</h3>
+      <span>#1000</span>
       </div>
       <div class="services-list-last">
-      <h3>beard trim</h3>
-      <span>#500</span>
+      <h3>Tattoo</h3>
+      <span>#20000+</span>
       </div>
       </div>
     </div>
@@ -183,9 +184,9 @@ function Info() {
             <div className="innercol col-md-6 col-xs-6 col-sm-6">
                 <div data-aos="fade-left"class=" info col col2">
                 <h3>Say Hello</h3>
-                    <p>Adress : 34 unity street ikotun lagos state</p>
-                    <p>Phone : 09038245421</p>
-                    <p>Email: jeolokebugwu1998@gmali.com</p>
+                    <p>Adsress : 34 Brank Street, Choba, Port-Harcourt  state</p>
+                    <p>Phone : 08183250984</p>
+                    <p>Email: maverickcave@gmail.com</p>
                 </div>
             </div>
             <div className="innercol col-md-6 col-xs-6 col-sm-6">
@@ -194,6 +195,11 @@ function Info() {
                     <p>Mon-Fri  7am-10pm</p>
                     <p>Saturday  8am-10pm</p>
                     <p>Sunday  8am-11pm</p>
+                    <ul data-aos="zoom-in" className="footer-icon">
+                           <a href="https://wa.me/2348183250984"><h2><i class="fa fa-whatsapp"></i></h2></a>
+                           <a href="https://twitter.com/Maverick_Cave?t=9dD69iFRSqfofc8Jf2UcPw&s=08"><h2><i class="fa fa-twitter"></i></h2></a>
+                           <a href=""><h2><i class="fa fa-envelope"></i></h2></a>                         <a href="tel:+2348183250984"><h2><i class="fa fa-phone"></i></h2></a>
+                        </ul>
                 </div>
             </div>
             

@@ -209,7 +209,28 @@ function Portfolio() {
   return (
     <div id="portfolio">
       <div><Portfoli/></div>
-      
+      <div data-aos="fade-up" className="port">
+    <div className="portfolio">
+      <div className="portfolio-image ">
+         <img className="img-responsive" src="security agency snipping.PNG" />
+      </div>
+      <div className="portfolio-content">
+      <h2>Flames Security Agency</h2>
+          <p>This is website for the Flames security agency located in Abia state, Nigeria, it is responsive to different screen sizes and includes an about page,list of services and contact informations</p>
+              
+              <ul className="portfolio-tools">
+               <li>React</li>
+              <li>Bootstrap</li>
+                 <li>Hmtl</li>
+                <li>CSS</li>
+               </ul>
+              <div className="portfolio-btn">
+              <a href="https://joelyoung2020.github.io/security/"> <button className="btn btn-primary">View Project</button></a>
+              <a href="https://github.com/joelyoung2020/website-for-flames-security"> <button className="btn btn-info">View Code</button></a>
+               </div>
+      </div>
+    </div>
+    </div>
     <div data-aos="fade-up" className="port">
     <div className="portfolio">
       <div className="portfolio-image ">
@@ -232,28 +253,7 @@ function Portfolio() {
       </div>
     </div>
     </div>
-    <div data-aos="fade-up" className="port">
-    <div className="portfolio">
-      <div className="portfolio-image ">
-         <img className="img-responsive" src="security agency snipping.PNG" />
-      </div>
-      <div className="portfolio-content">
-      <h2>Flames Security Agency</h2>
-          <p>This is website for the Flames security agency located in Abia state, Nigeria, it is responsive to different screen sizes and includes an about page,list of services and contact informations</p>
-              
-              <ul className="portfolio-tools">
-               <li>React</li>
-              <li>Bootstrap</li>
-                 <li>Hmtl</li>
-                <li>CSS</li>
-               </ul>
-              <div className="portfolio-btn">
-              <a href="https://joelyoung2020.github.io/security/"> <button className="btn btn-primary">View Project</button></a>
-              <a href="https://github.com/joelyoung2020/website-for-flames-security"> <button className="btn btn-info">View Code</button></a>
-               </div>
-      </div>
-    </div>
-    </div>
+  
     <div data-aos="fade-up" className="port">
     <div className="portfolio">
       <div className="portfolio-image ">
